@@ -1,22 +1,15 @@
 package com.example;
 
-import java.util.Scanner;
-
 import com.example.deck.Deck;
 
 public class Blackjack {
 
 	private static Deck deck;
-	private static Scanner scan;
 	private static IGameLogic gameLogic;
 
 	public static void main(String[] args) {
-		Blackjack b = new Blackjack();
-
-		scan = new Scanner(System.in);
-
+		// Basic game logic
 		deck = new Deck();
-		// Compares both scores. The largest score wins.
 		int humanValue = gameLogic.getHumanValue(deck);
 		int robotValue = gameLogic.getRobotValue(deck);
 
@@ -27,6 +20,5 @@ public class Blackjack {
 		} else {
 			System.out.println("YOU WIN!!!");
 		}
-
 	}
 }

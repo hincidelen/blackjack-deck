@@ -1,5 +1,8 @@
 package com.example.deck;
 
+import com.example.deck.enums.Pip;
+import com.example.deck.enums.Suit;
+
 public class PlayingCard {
 
 	public PlayingCard(Suit suit, Pip pip) {

@@ -3,6 +3,9 @@ package com.example.deck;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.deck.enums.Pip;
+import com.example.deck.enums.Suit;
+
 public class Deck {
 
 	private static final int DECK_SIZE = 52;
