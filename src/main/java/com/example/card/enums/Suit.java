@@ -1,4 +1,4 @@
-package com.example.deck.enums;
+package com.example.card.enums;
 
 public enum Suit {
 	Club, Diamond, Heart, Spade

@@ -1,7 +1,7 @@
-package com.example.deck;
+package com.example.card;
 
-import com.example.deck.enums.Pip;
-import com.example.deck.enums.Suit;
+import com.example.card.enums.Pip;
+import com.example.card.enums.Suit;
 
 public class PlayingCard {
 

@@ -3,8 +3,9 @@ package com.example.deck;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.deck.enums.Pip;
-import com.example.deck.enums.Suit;
+import com.example.card.PlayingCard;
+import com.example.card.enums.Pip;
+import com.example.card.enums.Suit;
 
 public class Deck {
 
@@ -27,7 +28,7 @@ public class Deck {
 	}
 
 	public PlayingCard getRandomPlayingCard() {
-		return cards.get(0 + (int) (Math.random() * 52));
+		return cards.get((int) (Math.random() * 52));
 
 	}
 }
