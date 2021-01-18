@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>stack-in-array</artifactId>
+	<artifactId>blackjack-deck</artifactId>
 	<version>0.0.1</version>
-	<name>stack-in-array</name>
-	<description>stack-in-array</description>
+	<name>blackjack-deck</name>
+	<description>blackjack-deck</description>
 
 	<properties>
 		<java.version>1.8</java.version>
