@@ -1,5 +1,5 @@
 ![Deck](Deck.png)
-![Playing Card](Playing Card.png)
+![Playing Card](PlayingCard.png)
 
 ## Running Test
 
